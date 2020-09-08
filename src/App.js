@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Countdown from "./Countdown.js";
 import streiten from "./streiten.png";
 import zoom from "./zoom.png";
-import { Button } from "reactstrap";
 
 class App extends Component {
   render() {
