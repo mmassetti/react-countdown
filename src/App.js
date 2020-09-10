@@ -3,6 +3,7 @@ import Countdown from "./Countdown.js";
 import streiten from "./streiten.png";
 import zoom from "./zoom.png";
 import SpotifyPlayer from "react-spotify-player";
+import ing from "./ing.png";
 
 const size = {
   width: 500,
@@ -35,9 +36,18 @@ class App extends Component {
             <strong>Código de acceso:</strong> 224010
           </span>
         </div>
-
-        <h3 className="title">¡Se nos recibe Blitz!</h3>
-        <Countdown date={`${year}-09-10T16:00:00`} />
+        <h1 className="title">¡FELICITACIONES INGENIERO STREITENBERGER! </h1>
+        <h3 className="title" style={{ color: "red" }}>
+          No pude preparar otra cosa{" "}
+          <a href="https://youtu.be/rEioQKCPn78?t=2780" target="_blank">
+            {" "}
+            <span>perdoname boludo</span>
+          </a>
+        </h3>
+        <div>
+          <img width="500" src={ing} alt="ta que te pario Crucitti" />;
+        </div>
+        {/* <Countdown date={`${year}-09-10T16:00:00`} /> */}
         <SpotifyPlayer
           uri="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2u2Cxv?si=qpBunl3qS-uMK_dAk03jKw"
           size={size}
