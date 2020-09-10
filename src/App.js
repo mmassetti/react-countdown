@@ -25,7 +25,7 @@ class App extends Component {
           <img src={streiten} className="App-logo" alt="logo" />
           <h2>Ingeniero Streitenberger</h2>
 
-          <a
+          {/* <a
             href="https://zoom.us/j/92644814669?pwd=Z1NZTWorV2tsV3ArbkRjZlQxSmVHZz09"
             target="_blank"
           >
@@ -34,7 +34,7 @@ class App extends Component {
           </a>
           <span>
             <strong>Código de acceso:</strong> 224010
-          </span>
+          </span> */}
         </div>
         <h1 className="title">¡FELICITACIONES INGENIERO STREITENBERGER! </h1>
         <h3 className="title" style={{ color: "red" }}>
