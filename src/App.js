@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import Countdown from "./Countdown.js";
 import streiten from "./streiten.png";
 import zoom from "./zoom.png";
+import SpotifyPlayer from "react-spotify-player";
+
+const size = {
+  width: 500,
+  height: 300,
+};
+const view = "list"; // or 'coverart'
+const theme = "black"; // or 'white'
 
 class App extends Component {
   render() {
@@ -30,6 +38,12 @@ class App extends Component {
 
         <h3 className="title">¡Se nos recibe Blitz!</h3>
         <Countdown date={`${year}-09-10T16:00:00`} />
+        <SpotifyPlayer
+          uri="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2u2Cxv?si=qpBunl3qS-uMK_dAk03jKw"
+          size={size}
+          view={view}
+          theme={theme}
+        />
       </div>
     );
   }
